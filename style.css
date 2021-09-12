@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../register&login_form/photo/mountains-1412683.png);
+    font-family: 'Azeret Mono', monospace;
+}
+
+.regis {
+    background-color: #413f5f;
+    color: #fff;
+    width: 600px;
+    height: 60vh;
+    position: absolute;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    align-self: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.regis h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+}
+
+.regis h3::before {
+    content: '';
+    border-bottom: 2px;
+    background-color: #515999;
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    border-radius: 3px;
+    bottom: 0;
+    left: 45%;
+    margin-bottom: -10px;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.regis h6 {
+    text-align: center;
+    font-size: 12px;
+    color: #a8acb6;
+    margin-top: 5px;
+
+}
+
+.regis p {
+    font-size: 12px;
+    font-weight: 350;
+    margin: 5px;
+    padding: 0;
+}
+
+.regis p,
+input {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.regis form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.regis input {
+    margin-bottom: 15px;
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid #a8acb6;
+}
