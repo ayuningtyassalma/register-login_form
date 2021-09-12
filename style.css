@@ -61,12 +61,13 @@ body {
 }
 
 .regis p {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 450;
     margin: 5px;
     padding: 0;
     color: rgba(131, 129, 129, 0.671);
 }
+
 
 .regis p,
 input {
@@ -85,5 +86,67 @@ input {
     width: 200px;
     height: 25px;
     border: none;
-    border-bottom: 2px solid #a8acb6;
+    border-bottom: 2px solid #302e40;
 }
+
+
+.exp p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
+.social_icon a img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 52%;
+}
+
+.social_icon .fb_icon {
+    margin-left: -35px;
+
+}
+
+
+/* .social_icon .google_icon {
+    left: 52%;
+} */
+
+.regis_button input[type="submit"] {
+    background-color: #f58e94;
+    border: 4px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 14px;
+    height: 35px;
+    color: #ffff;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.sign_in_button #sign_in {
+    background-color: #a8acb6;
+    border: 4px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 14px;
+    height: 35px;
+    color: #ffff;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    left: 32%;
+    position: absolute;
+}
+
+/* .sign_in input[type="submit"] {
+    background-color: #a8acb6;
+    display: block;
+} */
