@@ -10,12 +10,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-image: url(../register&login_form/photo/mountains-1412683.png);
-    font-family: 'Azeret Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .regis {
-    background-color: #413f5f;
-    color: #fff;
+    background-color: #ffff;
     width: 600px;
     height: 60vh;
     position: absolute;
@@ -40,7 +39,7 @@ body {
 .regis h3::before {
     content: '';
     border-bottom: 2px;
-    background-color: #515999;
+    background-color: #ffc0c3;
     position: absolute;
     height: 5px;
     width: 50px;
@@ -57,14 +56,16 @@ body {
     font-size: 12px;
     color: #a8acb6;
     margin-top: 5px;
+    font-weight: 400;
 
 }
 
 .regis p {
     font-size: 12px;
-    font-weight: 350;
+    font-weight: 450;
     margin: 5px;
     padding: 0;
+    color: rgba(131, 129, 129, 0.671);
 }
 
 .regis p,
